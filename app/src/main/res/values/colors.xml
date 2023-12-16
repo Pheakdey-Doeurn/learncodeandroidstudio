@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Alabaster">#EDEADE</color>
+    <color name="BoneWhite">#F9F6EE</color>
+    <color name="Teal">#008080</color>
+    <color name="Purple">#F9F6EE</color>
+    <color name="Bone">#CCCCFF</color>
+</resources>

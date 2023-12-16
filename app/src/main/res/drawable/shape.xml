@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shadow_ra"/>
+<item>
+    <shape android:shape="rectangle">
+    <!-- Define the fill color of the shape -->
+    <solid android:color="@color/white"/>
+
+    <!-- Define the radius of the corners to make them rounded -->
+    <corners android:radius="20dp"/>
+    </shape>
+</item>
+</layer-list>
