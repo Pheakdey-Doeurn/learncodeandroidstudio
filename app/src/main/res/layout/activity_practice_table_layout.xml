@@ -36,7 +36,7 @@
                 android:layout_width="0dp"
                 android:layout_height="140dp"
                 android:layout_gravity="center"
-                android:background="@drawable/shadow_ra"
+                android:background="@drawable/razy"
                 android:orientation="vertical"
                 android:padding="12dp">
 
