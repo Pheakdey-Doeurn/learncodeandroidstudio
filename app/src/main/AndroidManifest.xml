@@ -13,16 +13,21 @@
         android:theme="@style/Theme.PracticeNewApp"
         tools:targetApi="31">
         <activity
+            android:name=".CheckBoxTest"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".ViewDemoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Practice_TableLayout_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
+
         <activity
-            android:name=".CheckBoxTest"
+            android:name=".RadioButtonTestActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
