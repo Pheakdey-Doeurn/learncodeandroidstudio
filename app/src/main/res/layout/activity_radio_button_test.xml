@@ -29,7 +29,7 @@
            android:layout_weight="1"
            >
            <RadioGroup
-               android:id="@+id/rgGroup"
+               android:id="@+id/rgFruit"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content">
                <RadioButton
@@ -37,26 +37,26 @@
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Mango"
-                   android:onClick="SELECT_OPTION"
+
                    />
                <RadioButton
                    android:id="@+id/rbOrange"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Orange"
-                   android:onClick="SELECT_OPTION"/>
+               />
                <RadioButton
                    android:id="@+id/rbBanana"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Banana"
-                   android:onClick="SELECT_OPTION"/>
+                   />
                <RadioButton
                    android:id="@+id/rbGrape"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Grape"
-                   android:onClick="SELECT_OPTION"/>
+               />
            </RadioGroup>
        </LinearLayout>
        <LinearLayout
@@ -81,7 +81,7 @@
         android:textStyle="bold"
         ></TextView>
     <TextView
-        android:id="@+id/txtFruit"
+        android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
