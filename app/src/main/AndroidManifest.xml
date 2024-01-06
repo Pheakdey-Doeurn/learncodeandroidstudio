@@ -13,9 +13,20 @@
         android:theme="@style/Theme.PracticeNewApp"
         tools:targetApi="31">
         <activity
-            android:name=".CheckBoxTest"
+            android:name=".OneIntentMultiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntentMultiActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".CheckBoxTest"
+            android:exported="true" />
         <activity
             android:name=".ViewDemoActivity"
             android:exported="false" />
@@ -25,7 +36,6 @@
         <activity
             android:name=".Practice_TableLayout_Activity"
             android:exported="true" />
-
         <activity
             android:name=".RadioButtonTestActivity"
             android:exported="true">
