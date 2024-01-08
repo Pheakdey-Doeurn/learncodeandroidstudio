@@ -18,6 +18,10 @@ public class OneIntentMultiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one_intent_multi);
 
+        //Find Value in TextView
+        txtUsername = findViewById(R.id.txtUsername);
+        txtPass = findViewById(R.id.txtPass);
+
         //get value from Intent Class
         Intent getValue = getIntent();
         String strName,strPass;
@@ -27,10 +31,6 @@ public class OneIntentMultiActivity extends AppCompatActivity {
 
         txtUsername.setText(strName);
         txtPass.setText(strPass);
-
-        //Find Value in TextView
-        txtUsername = findViewById(R.id.txtUsername);
-        txtPass = findViewById(R.id.txtPass);
 
         if(strName.equals("User001")&& strPass.equals("User@001")){
             txtUsername.setText(strName);
