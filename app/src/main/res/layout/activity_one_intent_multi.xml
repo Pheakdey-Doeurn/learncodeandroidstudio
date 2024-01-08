@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/Beige"
     tools:context=".OneIntentMultiActivity">
 
     <TextView
@@ -19,14 +20,35 @@
         android:layout_marginTop="50dp"
         android:padding="20dp"
         />
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textColor="@color/Bone"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Password"
+        android:textColor="@color/Bone"
+        android:textSize="32sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
     <Button
         android:id="@+id/btnPre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="OnePrevius"
+        android:text="Previous"
         android:textSize="18sp"
-
         />
 
 </LinearLayout>
