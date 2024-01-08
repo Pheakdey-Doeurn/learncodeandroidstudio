@@ -40,6 +40,7 @@ public class OneIntentMultiActivity extends AppCompatActivity {
             Intent i = new Intent(OneIntentMultiActivity.this,IntentMultiActivity.class);
             startActivity(i);
         }
+
         btnPre =  findViewById(R.id.btnPre);
         btnPre.setOnClickListener(new View.OnClickListener() {
             @Override

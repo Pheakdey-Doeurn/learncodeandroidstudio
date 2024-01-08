@@ -25,6 +25,7 @@ public class IntentMultiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(IntentMultiActivity.this,OneIntentMultiActivity.class);
+
                 i.putExtra("KeyUname",editUsername.getText().toString().trim());
                 i.putExtra("KeyUpass",editPass.getText().toString().trim());
                 startActivity(i);
